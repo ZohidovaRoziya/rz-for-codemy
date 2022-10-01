@@ -22,7 +22,7 @@ body {
 }
 
 .nav h1,
-.slider h1 {
+.slider h1 a{
   font-family: "Josefin Sans", sans-serif;
   font-size: 5vw;
   margin: 0;
@@ -33,12 +33,22 @@ body {
   z-index: 3;
   cursor: pointer;
 }
-h1:hover {
+h1 a:hover {
   transform: translate3d(0, -10px, 22px);
   color: #1108F8;
 }
 
 h1 a:hover {
+  transform: translate3d(0, -10px, 22px);
+  color: #1108F8;
+}
+
+h1:hover {
+  transform: translate3d(0, -10px, 22px);
+  color: #1108F8;
+}
+
+h1:hover {
   transform: translate3d(0, -10px, 22px);
   color: #1108F8;
 }
@@ -127,8 +137,8 @@ a {
   z-index: auto;
 }
 @media (min-width: 800px) {
-  .nav h1,
-  .slider h1 {
+  .nav h1 a,
+  .slider h1 a{
     font-size: 5vw;
   }
 
@@ -143,8 +153,8 @@ a {
 }
 
 @media screen only (min-width: 360px) {
-  .nav h1,
-  .slider h1 {
+  .nav h1 a,
+  .slider h1 a{
     font-size: 8vw;
   }
 
